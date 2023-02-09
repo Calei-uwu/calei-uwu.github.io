@@ -1,0 +1,27 @@
+.indexBtn
+{
+    width: 80vw;
+    height: 10vw;
+}
+h1
+{
+    width: 90vw;
+    text-align: center;
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen
+{
+    width: 100%;
+}
+.articulo
+{
+    
+    width: 90vw;
+}

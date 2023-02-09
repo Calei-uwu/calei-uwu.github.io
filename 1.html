@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1.-Fundamentos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Fundamentos de la programación.</h1>
+
+        <article class="articulo">
+            <h2>¿Como funciona un PC?</h2>
+            <p>
+                Los dispositivos digitales funcionan con electricidad,  lo que hace imposible darles instrucciones con lenguaje natural. Solo son capaces de entender dos estados de la misma, encendido y apagado. <br>
+                Estos estados se ven representados con
+                <a href="#binario">codigo binario</a>
+                los cuales conforman 
+                <a href="#bits">bits y bytes</a>.
+                <br><br>
+
+
+
+                Los primeros ordenadores fueron programados con un conjunto de instrucciones predeterminadas y muy limitadas asignadas a un byte cada una, por poner un ejemplo rapido, el byte (00000001) podria representar la orden de sumar dos valores, (cabe aclarar que esto es solo un ejemplo).
+                <br> <br>
+                Pero programar usando codigo binario (tambien llamado lenguaje maquina) es muy complicado, por lo que los desarrolladores de software lo simplificaron creando lenguajes de programación.
+            </p>
+        </article>
+        <article class="articulo">
+            <h2>Lenguajes de programación</h2>
+            <p>
+                Los lenguajes de programación son un conjunto de instrucciones que simplifican la creación de software para los medios digitales. <br>
+                Se clasifican en bajo, medio y alto nivel, cada uno con sus ventajas y desventajas. <br> <br>
+                Los lenguajes de bajo nivel son los mas cercanos al lenguaje maquina, son complicados de entender y dominar, pero son mas rapidos que el resto, ya que la maquina está mas cerca de interpretarlos directamente. <br><br>
+
+                Los lenguajes de alto nivel son los mas similares al lenguaje natural, por lo general están en inglés y tienen conceptos bastante similares entre la gran variedad que existe, algunos son interpretados y otros compilados. <br> <br>
+
+                Los lenguajes de nivel medio son un poco de ambos mundos, son mas lentos que los de bajo nivel, pero mas rapidos que los de alto nivel, son mas dificiles de entender que los de alto nivel, pero mas faciles que los de bajo nivel.
+            </p>
+        </article>
+
+
+
+        <article class="articulo" id="Javascript">
+            <h2>Javascript</h2>
+            <p>
+                Javascript es un 
+                <a href="#interpretado"> lenguaje de programación interpretado</a>
+                 que funciona del lado del cliente. <br> <br>
+                 Nació como un intento de unificar la funcionalidad de los navegadores web, y funciona para dar interactividad a las paginas web. Es un lenguaje de alto nivel, debilmente tipado, vease que es poco estricto con su sintaxis a la hora de programar.
+                 <br> Funciona en cualquier navegador web y requiere poco para usarlo, lo que lo hace ideal para principiantes.
+                 <br> <br>
+                 Ademas, la comunidad ha logrado llevarlo al lado del servidor, e incluso al desarrollo de aplicaciónes, volviendolo un lenguaje muy versatil
+            </p>
+        </article>
+
+
+
+        <article class="articulo" id="binario">
+            <h2>Codigo Binario</h2>
+            <p>
+                El codigo binario, como su nombre lo indica, consta de 2 numeros, 0 y 1, los cuales funcionan similar a los numeros decimales que solemos usar. <br> <br>
+                0,1,2,3,4,5,6,7,8,9... <br> <br>
+                Nosotros usamos numeros del 0 al 9, y cuando se nos acaban agregamos un numero a la izquierda, (10) y a la derecha regresamos al principío. <br> <br>
+
+                Con los numeros binarios es igual: <br> <br>
+                0, 1, 10, 11, 100, 101, 111, 1000, 1001, 1011... <br> <br>
+            </p>
+        </article>
+
+
+
+        <article class="articulo" id="interpretado">
+            <h2>Lenguajes interpretados vs compilados.</h2>
+            <p>
+                Los lenguajes interpretados son lenguajes que se ejecutan linea por linea de codigo, lo cual hace que sean faciles de usar y corregir errores rapidamente, pero son mas lentos en comparación a los compilados, ya que el interprete es similar a un traductor en tiempo real para ejecutar las instrucciones de lenguaje de programacion a codigo maquina. <br> <br>
+
+                Por el contrario los compilados, al acabar de escribir el codigo pasan por un compilador, que covierte el texto plano a lenguaje maquina, capaz de ejecutarse a bajo nivel con mayor velocidad, pero consume tiempo al compilarse y si hay errores es mas lento corregirlos.
+            </p>
+        </article>
+
+
+
+        <article class="articulo" id="bits">
+            <h2>Bits y bytes</h2>
+            <p>
+
+                En informatica, a cada numero binario se le conoce como bit, este puede valer tanto 0 como 1. <br> <br>
+                  
+                Los Ordenadores funcionan con bits pero entienden bytes, los cuales están conformados de 8 bits(00000000). Este es el lenguaje binario de la informatica, cada byte representa un numero: <br> <br>
+                 
+                Los valores se leen de derecha a izquierda, el primer bite vale 1 y crece en un exponencial de 2, lo que significa que si el primer valor es 1, el segundo es 2, el tercero 4, el cuarto es 8 y asi sucesivamente. <br> <br>
+                los valores de cada numero representado con un 1 (Encendido) se suman, lo que da como resultado el valor del byte. <br>
+                <img class="imagen" src="places-byte.png" alt=""> <br><br>
+                Por ejemplo el valor del numero 10100110 da como resultado 166, ya que es la suma de: <br>
+                (2 + 4 + 32 + 128).
+            </p>
+        </article>
+    </main>
+</body>
+</html>
